@@ -39,6 +39,8 @@ A full-stack MERN(Mongoose/Express/React/Node) application that allows you to lo
 
 ![Components](https://cdn.discordapp.com/attachments/592282940130459651/1000981101298323587/ComponentHierarchy.png)
 
+![ERD](https://cdn.discordapp.com/attachments/592282940130459651/1001129724015284314/ERD.png)
+
 ***
 
 ### ***Future Changes/Updates***
