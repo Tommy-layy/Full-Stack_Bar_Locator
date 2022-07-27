@@ -31,11 +31,12 @@ const Bar = (props) => {
           return(
         
           <div className='bar-card' onClick={()=> showBar(bar)} key={bar.id}>
-                <h3>{bar.name}</h3>
-                <p> 
-                  banana
-                  <img src={bar.img}/>
-                </p>
+                <h2>{bar.name}</h2>
+                <h3>
+                <img src={bar.image}/>
+                </h3>
+                <h4>{bar.description}</h4>
+                <h5>{bar.rating}</h5>
           </div>
         )})
       }
