@@ -41,7 +41,7 @@
   }
 }
 
-.BarCard {
+.bar-card {
   padding: 2em 0;
   display: grid;
   grid-template-columns: repeat(auto-fill, 320px);

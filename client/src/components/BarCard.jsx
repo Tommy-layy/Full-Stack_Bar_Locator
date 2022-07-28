@@ -4,7 +4,6 @@ import { useState, useEffect } from 'react'
 import axios from 'axios'
 
 const Bar = (props) => {
-
   const BASE_URL = 'http://localhost:3001'
 
   const [bars, setBars] = useState()
@@ -20,26 +19,24 @@ const Bar = (props) => {
 
   let navigate = useNavigate()
 
-    const showBar = (bar) => {
-      navigate(`${bar.id}`)
-    }
+  const showBar = (bar) => {
+    navigate(`${bar.id}`)
+  }
 
-    return (
-  <div className='coasterCard'>
-      {
-        bars?.map((bar) => {
-          return(
-        
-          <div className='bar-card' onClick={()=> showBar(bar)} key={bar.id}>
-                <h2>{bar.name}</h2>
-                <h3>
-                <img src={bar.image}/>
-                </h3>
-                <h4>{bar.description}</h4>
-                <h5>{bar.rating}</h5>
+  return (
+    <div className="BarCard">
+      {bars?.map((bar) => {
+        return (
+          <div className="bar-card">
+            <h2>{bar.name}</h2>
+            <h3>
+              <img src={bar.image} />
+            </h3>
+            <h4>{bar.description}</h4>
+            <h5>{bar.rating}</h5>
           </div>
-        )})
-      }
+        )
+      })}
     </div>
   )
 }

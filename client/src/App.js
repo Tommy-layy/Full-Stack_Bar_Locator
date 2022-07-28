@@ -1,7 +1,7 @@
 import { Route, Routes } from 'react-router-dom'
 import { useNavigate } from 'react-router-dom'
 import { useEffect, useState } from 'react'
-import Home from './pages/Home'
+import Home from './components/Home'
 import BarCard from './components/BarCard'
 import Nav from './components/Nav'
 import axios from 'axios'
