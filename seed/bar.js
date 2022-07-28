@@ -4,7 +4,7 @@ const { Bar } = require('../models')
 db.on('error', console.error.bind(console, 'MongoDB Connection Error:'))
 
 const main = async () => {
-  // Bar.collection.drop()
+  Bar.collection.drop()
   const bar = [
     {
       id: '1',
