@@ -1,37 +1,44 @@
+import React from 'react'
+import { useNavigate } from 'react-router'
 import { useState, useEffect } from 'react'
 import axios from 'axios'
-import Nav from '../components/Nav'
-import BarCard from '../components/BarCard'
 
-const Home = ({ handleBarSelect }) => {
-  const [bar, setBars] = useState([])
+const Bar = (props) => {
+  const BASE_URL = 'http://localhost:3001'
+
+  const [bars, setBars] = useState()
 
   useEffect(() => {
     const getBars = async () => {
-      const res = await axios.get(`http://localhost:3001/bar`)
-      setBars(res.data.bar)
+      const bar = await axios.get(`${BASE_URL}/bar`)
+      console.log(bar.data)
+      setBars(bar.data)
     }
     getBars()
   }, [])
 
+  let navigate = useNavigate()
+
+  const showBar = (bar) => {
+    navigate(`${bar.id}`)
+  }
+
   return (
-    <div>
-      <h1>Top Bars in KC</h1>
-      <div className="home-bars">
-        {bar?.map((bar, index) => (
-          <div key={index}>
-            <BarCard
-              image={bar.image}
-              name={bar.name}
-              bar={bar.bar}
-              rating={bar.rating}
-              onClick={() => handleBarSelect(bar)}
-            />
+    <div className="coasterCard">
+      {bars?.map((bar) => {
+        return (
+          <div className="bar-card">
+            <h2>{bar.name}</h2>
+            <h3>
+              <img src={bar.image} />
+            </h3>
+            {/* <h4>{bar.description}</h4>
+            <h5>{bar.rating}</h5> */}
           </div>
-        ))}
-      </div>
+        )
+      })}
     </div>
   )
 }
 
-export default Home
+export default Bar
