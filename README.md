@@ -31,7 +31,7 @@ A full-stack MERN(Mongoose/Express/React/Node) application that allows you to lo
 
 ### ***Project Overview***
 
--
+Allows users to see reviews of top rated bars. Users are also able to write a review of their own.
 
 ***
 
@@ -47,7 +47,9 @@ A full-stack MERN(Mongoose/Express/React/Node) application that allows you to lo
 
 ### ***Future Changes/Updates***
 
-*
+* Get full CRUD working.
+* Allow users to click on indivual bar cards which takes them to a details page with more information on that specific bar.
+* Polish up CSS on more individual components.
 
 ***
 
