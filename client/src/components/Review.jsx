@@ -77,7 +77,7 @@ return (
       />
       <br></br>
 
-      <button type="submit">Submit</button>
+      <button type="submit-button">Submit Review</button>
     </form>
   </div>
 )

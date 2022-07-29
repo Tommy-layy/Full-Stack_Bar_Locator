@@ -13,3 +13,6 @@ const reviewSchema = new Schema(
 )
 
 module.exports = reviewSchema
+
+//Bottom module exports doesn't work. Keeping in case there is a solution.
+// module.exports = mongoose.model('Review', reviewSchema)

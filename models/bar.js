@@ -12,3 +12,6 @@ const barSchema = new Schema(
 )
 
 module.exports = barSchema
+
+//Bottom module exports doesn't work. Keeping in case there is a solution.
+// module.exports = mongoose.model('Bar', barSchema)

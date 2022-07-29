@@ -43,7 +43,7 @@
 
 body {
   background-image: url(https://images.squarespace-cdn.com/content/v1/541713e0e4b0d14e823bb4dd/1542724254698-R9DZL7A5BR5HC0KW6Q38/20181119_LoFi_IMG_0572_sm.jpg);
-  background-color: black;
+  background-color: rgba(0, 0, 0, 0.995);
   background-size: cover;
   background-repeat:no-repeat;
 }
