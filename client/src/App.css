@@ -52,6 +52,18 @@ h1, h2, h3, h4 {
   text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 5px, #FFF 0px 0px 5px, #ffffff90 0px 0px 10px, #ffffff90 0px 0px 10px, #ffffff 0px 0px 10px, #f7f7f7 0px 0px 10px, #ffffff 0px 0px 25px, 3px -1px 0px rgba(255, 255, 255, 0);
 }
 
+h2 {
+  text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 5px, #FFF 0px 0px 5px, #ffffff90 0px 0px 10px, #ffffff90 0px 0px 10px, #ffffff 0px 0px 10px, #f7f7f7 0px 0px 10px, #ffffff 0px 0px 25px, 3px -1px 0px rgba(255, 255, 255, 0);
+}
+
+h3 {
+  text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 5px, #FFF 0px 0px 5px, #ffffff90 0px 0px 10px, #ffffff90 0px 0px 10px, #ffffff 0px 0px 10px, #f7f7f7 0px 0px 10px, #ffffff 0px 0px 25px, 3px -1px 0px rgba(255, 255, 255, 0);
+}
+
+h4 {
+  text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 5px, #FFF 0px 0px 5px, #ffffff90 0px 0px 10px, #ffffff90 0px 0px 10px, #ffffff 0px 0px 10px, #f7f7f7 0px 0px 10px, #ffffff 0px 0px 25px, 3px -1px 0px rgba(255, 255, 255, 0);
+}
+
 h5 {
   text-shadow: #FFF 0px 0px 15px, #000000 0px 0px 50px, 3px -1px 0px rgba(255,255,255,0);
 }
@@ -82,3 +94,4 @@ img {
   max-height: 100%;
   object-fit: contain;
 }
+

@@ -7,14 +7,14 @@ router.get('/', (req, res) => res.send('Working Text'))
 
 // router.post('/reviewcreate', controllers.createReview)
 
-// router.get('/review', controllers.getAllReviews)
+// router.get('/review', controllers.getAllReview)
 
 // router.put('/review/:id', controllers.updateReview)
 
 // router.delete('/review/:id', controllers.deleteReview)
 
-// router.get('/bar', controllers.getAllBars)
+// router.get('/bar', controllers.getAllBar)
 
-// router.get('/bar/:id', controllers.getBars)
+// router.get('/bar/:id', controllers.getBar)
 
 module.exports = router
