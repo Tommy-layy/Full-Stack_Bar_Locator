@@ -55,6 +55,7 @@ Allows users to see reviews of top rated bars. Users are also able to write a re
 
 ### ***Resources***
 
-*
+* [GitHub](https://github.com/)
+* [HTML CSS JS](https://html-css-js.com/css/)
 
 ***
