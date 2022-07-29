@@ -41,6 +41,8 @@ A full-stack MERN(Mongoose/Express/React/Node) application that allows you to lo
 
 ![ERD](https://media.discordapp.net/attachments/592282940130459651/1001138382086357043/ERD2.png)
 
+![Reviews](https://cdn.discordapp.com/attachments/592282940130459651/1002506092342951947/BarReviews.png)
+
 ***
 
 ### ***Future Changes/Updates***
