@@ -8,12 +8,10 @@ const BarDetails = (props) => {
     
     const [bar, setBar] = useState('')
     let { id } = useParams()
-    // console.log('entering use effect')
     useEffect(() => {
         const getBarById = async () => {
             let data = await axios.get(`${BASE_URL}/bar/${id}`)
-            setBoba(data.data)
-            // console.log(data)
+            setBar(data.data)
         }
         getBarById()
     }, [])
@@ -37,4 +35,4 @@ const BarDetails = (props) => {
     ) : null;
 }
 
-export default BobaDetails
+export default BarDetails
