@@ -98,7 +98,6 @@ img {
 .NavBar {
   display: flex;
   justify-content: space-around;
-
   margin-top: 2vh;
   height: 4vmin;
   background: #797979;
@@ -109,6 +108,7 @@ img {
   border-radius: 5px 5px 5px 5px;
 }
 
-/* nav {
-  
-} */
+a {
+  color: white;
+  font-size: x-large
+}

@@ -4,13 +4,17 @@ import React from 'react'
 const Nav = () => {
   return (
     <header>
-      <nav>
       <div className='NavBar'>
+        <a>
         <Link to="/">Home</Link>
+        </a>
+        <a>
         <Link to='/bar'>Bars</Link>
+        </a>
+        <a>
         <Link to='/review'>Reviews</Link>
+        </a>
       </div>
-      </nav>
     </header>
   )
 }
