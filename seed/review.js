@@ -4,7 +4,7 @@ const { Review } = require('../models/')
 db.on('error', console.error.bind(console, 'MongoDB Connection Error:'))
 
 const main = async () => {
-  // Review.collection.drop()
+  Review.collection.drop()
   const review = [
     {
       name: 'Dean Smith',
