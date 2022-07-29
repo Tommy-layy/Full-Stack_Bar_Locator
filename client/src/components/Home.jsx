@@ -5,7 +5,7 @@ const Home = () => {
         <h1 className="mainTitle">Top Bars In KC</h1>
       <div className="HomeImage">
         <h2>
-          This is just a place holder
+          Leave a review on the reviews page!
         </h2>
       </div>
       </div>
