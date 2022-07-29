@@ -5,16 +5,16 @@ const { barController, reviewController } = require('../controllers')
 
 router.get('/', (req, res) => res.send('Working Text'))
 
-// router.post('/reviewcreate', reviewController.createReview)
+// router.post('/reviewcreate', controllers.createReview)
 
-// router.get('/review', reviewController.getAllReviews)
+// router.get('/review', controllers.getAllReviews)
 
-// router.put('/review/:id', reviewController.updateReview)
+// router.put('/review/:id', controllers.updateReview)
 
-// router.delete('/review/:id', reviewController.deleteReview)
+// router.delete('/review/:id', controllers.deleteReview)
 
-// router.get('/bar', barController.getAllBars)
+// router.get('/bar', controllers.getAllBars)
 
-// router.get('/bar/:id', barController.getBars)
+// router.get('/bar/:id', controllers.getBars)
 
 module.exports = router

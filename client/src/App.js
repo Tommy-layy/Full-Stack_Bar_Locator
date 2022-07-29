@@ -14,15 +14,6 @@ const BASE_URL = 'http://localhost:3001'
 function App() {
   const [bars, setBars] = useState([])
 
-  // useEffect(() => {
-  //   const getBars = async () => {
-  //     const bar = await axios.get(`${BASE_URL}/bar`)
-  //     console.log(bar.data)
-  //     setBars(bar.data.bar)
-  //   }
-  //   getBars()
-  // }, [])
-
   return (
     <div className="App">
       <header>

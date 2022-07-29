@@ -25,7 +25,7 @@ const handleSubmit = (e) => {
 
 return (
   <div>
-    <h1>Leave A Review For A Bar You've Visited Recently</h1>
+    <h1>Leave a review for a bar you've visited recently!</h1>
     <h4>Your information below.</h4>
     <form onSubmit={handleSubmit}>
       <input
