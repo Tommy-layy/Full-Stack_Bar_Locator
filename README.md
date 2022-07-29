@@ -12,7 +12,7 @@
 
 A full-stack MERN(Mongoose/Express/React/Node) application that allows you to look for top bars in your area. 
 
-![]()
+![BarHD](https://images5.alphacoders.com/462/thumb-1920-462280.jpg)
 
 ***
 
