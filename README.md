@@ -49,6 +49,7 @@ Allows users to see reviews of top rated bars. Users are also able to write a re
 
 * Get full CRUD working.
 * Allow users to click on indivual bar cards which takes them to a details page with more information on that specific bar.
+* Add a new component that gets loaded up once a user submits a review.
 * Polish up CSS on more individual components.
 * Adjust for more compatibility with mobile users.
 

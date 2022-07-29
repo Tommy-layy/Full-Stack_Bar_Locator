@@ -5,7 +5,7 @@ const Home = () => {
         <h1 className="mainTitle">Top Bars In KC</h1>
       <div className="HomeImage">
         <h2>
-          Leave a review on the reviews page!
+          Check out the best bars and leave a review on the reviews page!
         </h2>
       </div>
       </div>
