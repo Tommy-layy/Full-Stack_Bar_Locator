@@ -41,6 +41,16 @@
   }
 }
 
+body {
+  background-image: url(https://scontent.fmkc1-1.fna.fbcdn.net/v/t39.30808-6/276168176_4971016052964067_373360599840426650_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=730e14&_nc_ohc=MLN2qf8fc80AX-T8L70&_nc_ht=scontent.fmkc1-1.fna&oh=00_AT-VOwlBauExf0X5YkOSwrQ774C-KZ3K1jUK70wwKBtdNg&oe=62E7A6C9);
+  background-size: cover;
+  background-repeat:no-repeat;
+}
+
+h1, h2, h3, h4, h5 {
+  color: whitesmoke;
+}
+
 .BarCard {
   padding: 2em 0;
   display: grid;

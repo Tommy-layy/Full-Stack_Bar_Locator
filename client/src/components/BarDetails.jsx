@@ -4,42 +4,34 @@ import { useParams } from "react-router-dom"
 
 const BASE_URL = 'http://localhost:3001/api'
 
-const BobaDetails = (props) => {
+const BarDetails = (props) => {
     
-    const [boba, setBoba] = useState('')
+    const [bar, setBar] = useState('')
     let { id } = useParams()
     // console.log('entering use effect')
     useEffect(() => {
-        const getBobaById = async () => {
-            let data = await axios.get(`${BASE_URL}/boba/${id}`)
-            // console.log(data.data.bobas)
-            // for(let i = 0; i < data.data.bobas.length; i++){
-            //     if(id == data.data.bobas[i]._id){
-            //         setBoba(data.data.bobas[i])
-            //         break;
-            //     }
-            // }
+        const getBarById = async () => {
+            let data = await axios.get(`${BASE_URL}/bar/${id}`)
             setBoba(data.data)
             // console.log(data)
         }
-        getBobaById()
+        getBarById()
     }, [])
-    // console.log(props.bobas)
-    // console.log(boba)
-    return boba ? (
+
+    return bar ? (
         <div className="detail">
             <div className="detail-header">
                 <img className="imgdetail" style={{display: 'block', width: '6em', height: '6em', justifyContent: 'center', alignItems: 'center'}} src={boba.image} />
                 <div style={{minWidth: '30em', display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
-                    <h1>{boba.name}</h1>
+                    <h1>{bar.name}</h1>
                 </div>
             </div>
             <div className="info-wrapper">
                 <div style={{display: 'flex', justifyContent:'flex-end', alignItems: 'right', flexDirection: 'column'}}>
-                    <h2>{boba.price}</h2>
-                    <h2>{boba.rating}</h2>
+                    <h2>{bar.rating}</h2>
+                    <h2>{bar.rating}</h2>
                 </div>
-                <h3>{boba.description}</h3>
+                <h3>{bar.description}</h3>
             </div>
         </div>
     ) : null;
