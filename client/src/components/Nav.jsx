@@ -4,13 +4,13 @@ import React from 'react'
 const Nav = () => {
   return (
     <header>
-      <div className='NavBar'>
       <nav>
+      <div className='NavBar'>
         <Link to="/">Home</Link>
         <Link to='/bar'>Bars</Link>
         <Link to='/review'>Reviews</Link>
-      </nav>
       </div>
+      </nav>
     </header>
   )
 }
