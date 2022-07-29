@@ -6,6 +6,8 @@
 
 [Trello](https://trello.com/invite/b/rbOCPZ31/29946513d96a125ef8e1264aafa6704e/project2-bar-locator)
 
+[Heroku](https://bar-locator.herokuapp.com/)
+
 ***
 
 ### ***Description***
